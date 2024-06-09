@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;java_String_Example.FindSpecialCharacer.java&apos; to &apos;RemoveSpecialCharacer_FromText.java&apos;&#x0A;- Original project: &apos;DSA_CoreJava&apos;&#x0A;- Original element: &apos;java_String_Example.FindSpecialCharacer.java&apos;&#x0A;- Renamed element: &apos;java_String_Example.RemoveSpecialCharacer_FromText.java&apos;" description="Rename compilation unit &apos;FindSpecialCharacer.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;java_String_Example{FindSpecialCharacer.java" name="RemoveSpecialCharacer_FromText.java" references="false" stamp="1712129018771" version="1.0"/>
+</session>

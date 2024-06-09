@@ -1,0 +1,42 @@
+package jsonTest;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+class Person {
+
+	public Person(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
+	String name;
+	int age;
+
+}
+
+public class JSON2JavaObj {
+
+	public static void main(String[] args)  {
+
+		
+		try {
+		String obj1 = " {\"name\": \"Chris\", \"age\": \"38\" }";
+		ObjectMapper objMapper = new ObjectMapper();
+		objMapper.readValue(obj1, Person.class);
+		
+
+	}
+		
+		
+catch(JsonMappingException jse) {
+	
+	
+}
+		catch(JsonProcessingException jpe) {
+			
+			
+		}
+}

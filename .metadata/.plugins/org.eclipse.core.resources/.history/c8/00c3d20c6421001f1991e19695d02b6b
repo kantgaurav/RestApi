@@ -1,0 +1,9 @@
+package com.practice.com.demo_proj2;
+
+import org.testng.annotations.Test;
+
+public class testNGAnnotationTest {
+  @Test
+  public void f() {
+  }
+}

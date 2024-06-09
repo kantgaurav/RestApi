@@ -1,0 +1,32 @@
+package collection.map;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class FindDuplicateUsing_HashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int arr[] = {89,11, 67, 89, 11, 2,11,22,2,};
+	}
+	
+	private static void findDuplicateUsingHashSet(int arr[]) {
+	
+		int count =0;
+		Set<Integer> set =  new HashSet<>();
+		
+		for(int x: arr) {
+			
+			if(!set.add(x)) {
+				count++;
+				System.out.println("Duplicate element is :"+x+ "And count is:"+ );
+				
+			}
+			
+		}
+		
+		
+	}
+
+}

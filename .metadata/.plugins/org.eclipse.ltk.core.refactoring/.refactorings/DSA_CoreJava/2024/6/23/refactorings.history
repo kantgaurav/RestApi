@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Student.java&apos; to &apos;restAPI/src/main/java/jsonTest&apos;&#x0A;- Original project: &apos;DSA_CoreJava&apos;&#x0A;- Destination element: &apos;restAPI/src/main/java/jsonTest&apos;&#x0A;- Original element: &apos;hackerrank_nikhilLohia_Solutions.Student.java&apos;" description="Copy compilation unit" destination="=restAPI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;jsonTest" element1="/src&lt;hackerrank_nikhilLohia_Solutions{Student.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1717747721327" units="1" version="1.0"/>
+</session>

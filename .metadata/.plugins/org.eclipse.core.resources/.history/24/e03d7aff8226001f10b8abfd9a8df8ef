@@ -1,0 +1,30 @@
+package pojo;
+
+import org.apache.juneau.json.JsonSerializer;
+
+public class Serialization_pojo2JSON {
+	
+	//#juneau-marshall API
+	
+	public static void main(String[] args) {
+		
+
+
+
+   
+   JsonSerializer js =	JsonSerializer.DEFAULT_READABLE;
+	String sellerNames[] = {"Neon Enterprise", "ABC Software", "XYZ IT solutions"};
+	Product product = new Product("MAcbookPro", 1000, "White", sellerNames);
+   Product p = new Product("M10Plus", 27664, "Grey", sellerNames);
+   
+  String json= js.serialize(p);
+  
+  System.out.println(json);
+   
+	}
+   
+   
+	
+	
+
+}

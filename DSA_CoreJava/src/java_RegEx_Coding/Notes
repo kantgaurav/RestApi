@@ -1,0 +1,14 @@
+[abc] : A single character of a, b OR c
+[a-z] : A single character in range of a to z.
+a|b : Match either a OR b
+\d : A digit in 	range 0 to 9
+ .    : Any Single character 
+ a{3} : Exactly 3 of a 
+ a{3,} : 3 or more of a 
+ a{3,6} :between 3 and 6 : aaa, aaaa, aaaaa, aaaaaa. 
+ ^    : Begining of a line 
+ $ : End of a Line 
+ *  : Matched 0 or more occurences.
+ + : Matched 1 OR more occurences 
+ ?  :Matches 0 OR occurences 
+  

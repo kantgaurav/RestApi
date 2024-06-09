@@ -1,0 +1,19 @@
+package pojo;
+
+import org.apache.juneau.json.JsonSerializer;
+
+public class Serialization_pojo2JSON {
+	
+	//#juneau-marshall API
+	
+	String [] seller = {"Lenova", "Samsung", "Mac"};
+   JsonSerializer js = JsonSerializer.DEFAULT_READABLE;
+   
+   Product p = new Product("M10Plus", 27664, "Grey", seller);
+   
+     
+	js.
+	
+	
+
+}

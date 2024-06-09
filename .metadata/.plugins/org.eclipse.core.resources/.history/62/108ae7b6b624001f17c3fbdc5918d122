@@ -1,0 +1,12 @@
+package jsonTest;
+
+public class JSON2JavaObj {
+	
+	public static void main(String[] args) {
+		
+		
+String obj1=	" {\"name\": \"Chris\", \"age\": \"38\" }"	;
+	
+	}
+
+}

@@ -1,0 +1,45 @@
+package restAPI;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class DataSharingInApi {
+
+	//* https://www.youtube.com/watch?v=g1f6epAfoIY
+	//https://restful-booker.herokuapp.com/apidoc/index.html
+	
+	String baseUrl= "https://restful-booker.herokuapp.com/";
+	String basePath= "booking";
+	@Test
+	public void createBooking() {
+		
+		
+		RestAssured
+		.given()
+		.log()
+		.all()
+		.baseUri(baseUrl)
+		.basePath(basePath)
+		.body( "{\r\n"+
+		       
+           "\"firstname\" : "\"Test"\",\r\n"+
+           "\"lastname\" : "\"Mahajan\", \r\n"
+		          
+				
+	"}")		
+				
+				
+	}
+	
+}
+
+			
+			
+			
+			
+	
+			
+			
+			
+			
