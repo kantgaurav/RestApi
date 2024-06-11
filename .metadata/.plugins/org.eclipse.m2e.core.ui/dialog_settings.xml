@@ -45,12 +45,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="restApiProj"/>
 			<item value="restAPITesting"/>
 			<item value="restAPI"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="restApiproj"/>
 			<item value="restApiTesting"/>
 			<item value="restAPI"/>
 		</list>
