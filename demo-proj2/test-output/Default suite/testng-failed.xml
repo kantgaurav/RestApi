@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="way2Automation.com.practice.IframeDemo_Selenium4">
+      <class name="way2Automation.com.practice.SSLCertificate_Handle">
         <methods>
-          <include name="configSetUp"/>
-          <include name="findLinkCountAndAllurl"/>
+          <include name="handleSSLCertidication"/>
         </methods>
-      </class> <!-- way2Automation.com.practice.IframeDemo_Selenium4 -->
+      </class> <!-- way2Automation.com.practice.SSLCertificate_Handle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
