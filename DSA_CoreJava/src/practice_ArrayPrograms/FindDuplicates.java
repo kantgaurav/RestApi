@@ -1,7 +1,9 @@
 package practice_ArrayPrograms;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class FindDuplicates {
 
@@ -17,7 +19,7 @@ public class FindDuplicates {
 	
 	public static  void printDupliateIntFromArray(int []arr) {
 		
-		List<Integer> list = new ArrayList<>();
+		Set<Integer> set = new HashSet<>();
 		for(int i=0; i<arr.length; i++) {
 			//
 			for(int j = i+1; j<arr.length; j++) {
@@ -25,14 +27,14 @@ public class FindDuplicates {
 				if(arr[i]==arr[j]) {
 					
 					System.out.println("duplicate Found "+arr[j]);
-					list.add(arr[i]);
+					set.add(arr[i]);
 				}
 				
 			}
 			
 		}
 		
-		System.out.println(list);
+		System.out.println(set);
 	}
 
 }

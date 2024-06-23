@@ -1,7 +1,12 @@
 package com.java.Test;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -25,7 +30,7 @@ public void launchBrowser() {
 }
 
 @Test
-public void verifyTitle() {
+public void verifyTitle() throws InterruptedException {
 	
 	
 	driver.get("https://www.google.co.in/");
@@ -40,6 +45,16 @@ public void verifyTitle() {
 	
 	System.out.println("Pass");
 	
+	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	///boolean val=driver.findElement(By.xpath("//descendant::div[@class='RNNXgb']")).isDisplayed();
+
+		//driver.findElement(By.xpath("//descendant::div[@class='RNNXgb']")).clear();
+		
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//descendant::div[@class='RNNXgb']")));
+		driver.findElement(By.xpath("//descendant::div[@class='RNNXgb']")).sendKeys("Test");
+		
+		
+		
 	
 	
 }

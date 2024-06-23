@@ -1,8 +1,9 @@
 package com.practice.com.demo_proj2;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
+
 
 public class CountOfEachCharacterFromString {
 
@@ -10,14 +11,15 @@ public class CountOfEachCharacterFromString {
 		// TODO Auto-generated method stub
 
 		  //getCharCount("morning is awesome");
-		  getCharCount("shashikant  gaurav");
+		  getCharCount("i am shashikant  gaurav");
 	}
 	
 	public static void getCharCount(String str) {
 		
+		   str = str.replaceAll("\\s+", "");
 		   char []strArr= str.toCharArray();
 		   
-		   Map<Character, Integer> hm= new HashMap<Character, Integer>();
+		   Map<Character, Integer> hm= new LinkedHashMap<Character, Integer>();
 		    
 		        for(char c : strArr) {
 		        	if(!String.valueOf(c).isBlank()) {

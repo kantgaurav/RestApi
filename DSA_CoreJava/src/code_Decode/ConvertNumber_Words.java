@@ -28,6 +28,10 @@ public class ConvertNumber_Words {
 		num_Converter.put(3, "Three");
 		num_Converter.put(4, "Four");
 		
+		num_Converter.putIfAbsent(5, "FIVE");
+		
+		System.out.println(num_Converter.get(5));
+		
 		Set<Integer> setItr = num_Converter.keySet();
 		
 		Iterator<Integer> itr = setItr.iterator();
@@ -36,10 +40,10 @@ public class ConvertNumber_Words {
 		
 		while(itr.hasNext()){
 			
-			//int =itr.next();
-			System.out.println(itr.next());
-			
-			  System.out.println(""+num_Converter.get(itr.next()));
+		int x=itr.next();
+			//System.out.println(itr.next());
+			System.out.println("Key is"+x);
+			  System.out.println(""+num_Converter.get(x));
 			
 		}
 		

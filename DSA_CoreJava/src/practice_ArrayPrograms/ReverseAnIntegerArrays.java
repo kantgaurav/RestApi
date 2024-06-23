@@ -10,7 +10,7 @@ public class ReverseAnIntegerArrays {
 		
 		int[] b = {10,20,30,40};
 		
-		int []result=  new int[b.length];
+		///int []result=  new int[b.length];
 		
 	reverseIntArray(b);
 		
@@ -19,7 +19,7 @@ public class ReverseAnIntegerArrays {
 	
 	public static int [] reverseIntArray(int orgArr[]) {
 		
-		int arr[] = {};
+		int arr[] = new int[orgArr.length];
 		int k=0;
 		for (int i =orgArr.length-1; i>=0; i--) {
 			
