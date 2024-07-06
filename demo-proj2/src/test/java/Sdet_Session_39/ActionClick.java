@@ -3,6 +3,7 @@ package Sdet_Session_39;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -17,6 +18,13 @@ public class ActionClick {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		driver.get(url);
+		
+		
+		JavascriptExecutor jse =   (JavascriptExecutor) driver;
+		
+		String title =(String) jse.executeScript("return document.title");
+		
+		System.out.println(title);
 
 		driver.manage().window().maximize();
 

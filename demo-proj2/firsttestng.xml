@@ -7,4 +7,10 @@
       <class name="com.java.Test.Main"/>
     </classes>
   </test> <!-- TestFirstPackage -->
+  <test thread-count="5" name="TestFirstPackage2">
+    <classes>
+      <class name="com.java.Test.C1"/>
+      <class name="com.java.Test.C2"/>
+    </classes>
+  </test> <!-- TestFirstPackage -->
 </suite> <!-- Suite -->

@@ -10,6 +10,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
+/*Refrences shoould be from testNG file .Observe testNG file : 
+ * there are hierarchy like:suite, test ,class , method
+ * 
+ */
 public class NewTest {
   @Test
   public void first() {
